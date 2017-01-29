@@ -9,7 +9,7 @@ CREATE TABLE CLIENTE(
 CREATE TABLE company
 (
    id    integer   NOT NULL,
-   name  text      NOT NULL,
+   name  VARCHAR (30) NOT NULL,
    cod   text      NOT NULL,
   CREATION_DATE  TIMESTAMP NOT NULL,
   UPDATE_DATE TIMESTAMP NOT NULL
